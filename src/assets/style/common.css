@@ -1,0 +1,303 @@
+
+/* common parts */
+body {
+    font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "heisei-maru-gothic-std", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro" !important;
+  }
+
+input  {
+    outline: none;
+    width: 100%;
+    /* max-width: 300px; */
+    margin: 1em auto;
+    outline: 0;
+    
+}
+
+textarea {
+    outline: 0;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    line-height: 48px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    margin: 3em auto 1em;
+    color: #fff;
+    outline: 0;
+}
+@media screen and (max-width: 650px) {
+    button {
+        margin: 2.5em auto 2em;
+  }
+}
+
+p,h2,h3,h4 {
+    color: #747474;
+    padding: 2.5em 0 0.5em 0;
+}
+
+@media screen and (max-width: 650px) {
+    p,h2,h3,h4 {
+        padding: 2em 0 0.5em 0;
+  }
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.55em;
+    font-weight: bold;
+}
+
+a{
+    color: #0084be;
+    text-decoration: none;
+}
+
+.categoryIcon {
+    font-size: 1.2em;
+    color: #1CD2F5;
+}
+
+
+/* layout */
+.common__color{
+    background-color: aqua;
+}
+
+.common__center{
+    text-align: center;
+}
+
+.common__size{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 3em 0 4em 0;
+ }
+ @media screen and (max-width: 650px) {
+  .common__size {
+    margin: 3em 1em 4em 1em;
+    padding: 0;
+  }
+}
+
+.common__contents-center{
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+/* theme color */
+.back__gray {
+    background-color: #fafafa;
+}
+.back__white {
+    background-color: #fff;
+}
+/* 
+.common__size {
+ max-width: 1200px;
+} */
+
+.icon{
+    margin: 0 0.35em;
+    font-size: 3em;
+}
+
+.icon-twitter{
+    color: #55acee;
+}
+
+.icon-facebook{
+    color: #3B5998;
+}
+
+.icon-linkdin{
+    color: #0e76a8;
+}
+
+.skill__title{
+    color: #EFEFEF;
+    padding: 0 0.5em 1em 0;
+    font-size: 32px;
+    text-align: left;
+}
+
+.skill__contents-center {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.icon-brand {
+    font-size: 1.5em;
+}
+
+.icon-brand-github {
+    color: #171616;
+}
+
+.icon-brand-pc {
+    color: #555;
+}
+
+.icon-brand-react {
+    color: #52c1dd;
+}
+
+.icon-brand-js {
+    color: #d5bf00;
+}
+
+.icon-brand-css {
+    color: #00bfff;
+}
+
+.icon-brand-html {
+    color: #ff8000;
+}
+
+.icon-brand-gulp {
+    color: #dc143c;
+}
+
+.icon-brand-sass {
+    color: #cd679a;
+}
+
+.icon-brand-wordpress {
+    color: #00004d;
+}
+
+.icon-page {
+    color: #ddd;
+    font-size: 2em;
+    padding: 0 0.5em;
+}
+
+
+.icon-pointer{
+    cursor: pointer;
+}
+
+ /* images */
+ .hobby-coding{
+    background-image: url('../img/hobby_image_coding.jpg');
+ }
+
+ .hobby-cooking{
+    background-image: url('../img/hobby_image_walking.jpg');
+ }
+
+ .hobby-cycling{
+    background-image: url('../img/hobby_image_roadbike.jpg');
+ }
+
+
+ .work-ec{
+    background-image: url('../img/work_ec.jpg');
+ }
+
+
+ .work-blog{
+    background-image: url('../img/work_blog.jpg');
+ }
+
+ .article-gulp{
+    background-image: url('../img/blog-gulp.jpg');
+ }
+
+ .article-reactSass{
+    background-image: url('../img/blog-sass.jpg');
+ }
+
+ .article-404{
+    background-image: url('../img/blog-error.png');
+ }
+
+ .work-portfolio{
+    background-image: url('../img/work_portfolio.jpg');
+ }
+
+ .work-lp{
+    background-image: url('../img/travellers_Pay.jpg');
+ }
+
+ .work-blog{
+    background-image: url('../img/work_blog.jpg');
+ }
+
+ .work-ec{
+    background-image: url('../img/work_ec.jpg');
+ }
+
+ .work-app{
+    background-image: url('../img/work_design_icon.jpg');
+ }
+
+ .work-direction{
+    flex-flow: row-reverse;
+ }
+
+ .workDisplay{
+    display: none !important;
+ }
+
+ .chip-html{
+    background: linear-gradient(#ff8e1d,#ffb164);
+ }
+
+ .chip-css{
+    background: linear-gradient(#52d7ff,#9dd5ff);
+ }
+
+ .chip-js{
+    background: linear-gradient(#79d5a0,#84efb0);
+ }
+
+ .chip-react{
+    background: linear-gradient(#7fdbe3,#469cdb);
+ }
+
+ .chip-psd{
+    background: linear-gradient(#396df8,#76baf5);
+ }
+
+ .chip-ai{
+    background: linear-gradient(#ff481d,#ffa843);
+}
+
+.chip-xd{
+    background: linear-gradient(#df6aef,#fc99ed);
+}
+
+.chip-office{
+    background: linear-gradient(#6bdb19,#bbf539);
+}
+
+.chip-office{
+    background: linear-gradient(#6bdb19,#bbf539);
+}
+
+.chip-vscode{
+    background: linear-gradient(#0d44db,#53b0ff);
+}
+
+.chip-spreadsheet{
+    background: linear-gradient(#ffde29,#f8a31b);
+}
+
+.chip-qualification{
+    background: #747474;
+}
+
+
+
+
+
